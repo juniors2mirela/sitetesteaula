@@ -1,0 +1,183 @@
+:root{
+    --color-azul: #2d5fa7;
+    --color-amarelo: #e4b11a;
+    --color-cinzaescuro:#bdbebd;
+}
+
+
+#telacontato{
+
+    background-image: url(/ilustração-bonita-do-projeto-do-papel-de-parede-da-bandeira-da-textura-do-queijo-92144744.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    
+}
+.content{
+
+    background-color: var(--color-azul);
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 30%;
+    overflow: auto;
+    box-shadow: 10px 10px 10px #000000;
+    
+
+}
+h1{
+
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 10px 10px 10px #000000;
+}
+.span_requerimento{
+    display: none;
+}
+.inputs{
+
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(228, 228, 228);
+    border: 2px solid rgb(228, 228, 228);
+    width: 100%;
+    box-sizing: border-box;
+    transition: 1s;
+}
+.inputs:focus{
+border-color: var(--color-amarelo);
+}
+
+button[type="submit"]{
+
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color:var(--color-amarelo);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 800;
+    
+}
+
+button[type="submit"]:hover{
+
+    background-color: #cf9b09;
+    color: black;
+    font-weight: 800;
+}
+
+
+
+#logo{
+
+    text-align: center;
+    padding: 0%;
+    margin: 0 auto;
+   
+}
+#menu{
+
+    background-color: #2d5fa7;
+    padding: 0px;
+    list-style: none;
+    border-radius: 30px;
+    text-align: center;
+    
+
+}
+#menu li{
+
+    display: inline;
+    
+
+}
+
+#menu li a{
+
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 0;
+    display: inline-block;
+    transition: .5s;
+    color: rgb(252, 249, 249);
+    font-size: 16px;
+    font-family: sans-serif;    
+}
+
+#menu li a:hover{
+
+   background-color: #e4b11a
+}
+#rodape{
+
+    text-align: center;
+    background-color: #e4b11a;
+    color: #2d5fa7;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 30px;
+
+}
+#img{
+
+    padding: 30px 230px;
+    
+    
+}
+
+/*catálago*/
+.produto{
+   
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.produto p{
+
+   background-color: #e4b11a;
+   color: #2d5fa7;
+   font-weight: 700;
+   font-family: sans-serif;
+   padding: 5px 30px;
+   text-align: center;
+   
+}
+.produtos{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+    
+
+}
+#menu-prod{
+
+    background-color: #2d5fa7;
+    padding: 10px 20px;
+    text-align: center;
+    color: rgb(254, 240, 255);
+    font-weight: 700;
+    border-radius: 30px;
+   
+}
+   
+.produto p:hover{
+transform: rotate(-5deg);
+
+}
